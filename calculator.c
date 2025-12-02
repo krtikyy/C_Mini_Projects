@@ -1,3 +1,4 @@
+// Calculator
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -23,9 +24,10 @@ void main()
         r=a/b;
         break;
         default :
-        printf("Invalid equation");
+        printf("Invalid equation!!!");
         exit(1);
     }
     printf("Result = %d",r);
+
 
 }
